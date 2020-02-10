@@ -9,7 +9,8 @@
     "node": ">= 8.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+	"languages.json"
   ],
   "main": "index.js",
   "name": "language-iso-codes",
