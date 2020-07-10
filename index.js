@@ -39,7 +39,12 @@ module.exports = (function () {
 			}
 
 			const target = string.toLowerCase();
-			return ISOLanguageParser.languages.find(i => (i.iso6391 === target || i.iso6392 === target || i.iso6393 === target || i.names.includes(target)));
+			return ISOLanguageParser.languages.find(i => (
+				i.iso6391 === target
+				|| i.iso6392 === target
+				|| i.iso6393 === target
+				|| i.names.includes(target))
+			);
 		}
 
 		/**
