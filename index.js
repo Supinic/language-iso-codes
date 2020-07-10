@@ -8,16 +8,13 @@ module.exports = (function () {
 	const languages = require(__dirname + "/languages.json");
 
 	return class ISOLanguageParser {
-		static getCode (string, targetCode = null) {
+		static getCode (string, targetCode = "iso6391") {
 			const target = ISOLanguageParser.get(string);
 			if (!target) {
 				return null;
 			}
 			else if (targetCode) {
 				return target[targetCode];
-			}
-			else {
-				return target.iso6391 || target.iso6392;
 			}
 		}
 
@@ -42,9 +39,7 @@ module.exports = (function () {
 			}
 
 			const target = string.toLowerCase();
-			return ISOLanguageParser.languages.find(({iso6391, iso6392, names}) => (
-				iso6391 === target || iso6392 === target || names.includes(target)
-			));
+			return ISOLanguageParser.languages.find(i => (i.iso6391 === target || i.iso6392 === target || i.iso6393 === target || i.names.includes(target)));
 		}
 
 		/**
