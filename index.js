@@ -43,8 +43,8 @@ module.exports = (function () {
 				i.iso6391 === target
 				|| i.iso6392 === target
 				|| i.iso6393 === target
-				|| i.names.includes(target))
-			);
+				|| i.names.includes(target)
+			));
 		}
 
 		/**
