@@ -171,6 +171,7 @@
     "group": "Indo-European",
     "names": [
       "belarusian",
+      "беларускі",
       "беларуская мова"
     ],
     "iso6391": "be",
@@ -190,6 +191,7 @@
   {
     "group": "Indo-European",
     "names": [
+      "bihari",
       "bihari languages",
       "भोजपुरी"
     ],
@@ -210,6 +212,7 @@
     "group": "Indo-European",
     "names": [
       "bosnian",
+      "bosanski",
       "bosanski jezik"
     ],
     "iso6391": "bs",
@@ -230,6 +233,7 @@
     "group": "Indo-European",
     "names": [
       "bulgarian",
+      "български",
       "български език"
     ],
     "iso6391": "bg",
@@ -249,6 +253,7 @@
   {
     "group": "Indo-European",
     "names": [
+      "catalan",
       "catalan valencian",
       "català valencià"
     ],
@@ -290,6 +295,7 @@
     "group": "Sino-Tibetan",
     "names": [
       "chinese",
+      "zhōngwén",
       "中文 (zhōngwén) 汉语 漢語"
     ],
     "iso6391": "zh",
@@ -340,6 +346,7 @@
     "group": "Indo-European",
     "names": [
       "croatian",
+      "hrvatski",
       "hrvatski jezik"
     ],
     "iso6391": "hr",
@@ -350,7 +357,8 @@
     "group": "Indo-European",
     "names": [
       "czech",
-      "čeština český jazyk"
+      "čeština",
+      "český jazyk"
     ],
     "iso6391": "cs",
     "iso6392": "ces",
@@ -379,7 +387,9 @@
   {
     "group": "Indo-European",
     "names": [
+      "flemish",
       "dutch flemish",
+      "vlaams",
       "nederlands vlaams"
     ],
     "iso6391": "nl",
@@ -418,7 +428,8 @@
     "group": "Uralic",
     "names": [
       "estonian",
-      "eesti eesti keel"
+      "eesti",
+      "eesti keel"
     ],
     "iso6391": "et",
     "iso6392": "est",
@@ -458,7 +469,8 @@
     "group": "Uralic",
     "names": [
       "finnish",
-      "suomi suomen kieli"
+      "suomi",
+      "suomen kieli"
     ],
     "iso6391": "fi",
     "iso6392": "fin",
@@ -468,7 +480,8 @@
     "group": "Indo-European",
     "names": [
       "french",
-      "français langue française"
+      "français",
+      "langue française"
     ],
     "iso6391": "fr",
     "iso6392": "fra",
@@ -517,7 +530,7 @@
   {
     "group": "Indo-European",
     "names": [
-      "greek modern (1453–)",
+      "greek",
       "ελληνικά"
     ],
     "iso6391": "el",
@@ -547,7 +560,8 @@
   {
     "group": "Creole",
     "names": [
-      "haitian haitian creole",
+      "haitian",
+      "haitian creole",
       "kreyòl ayisyen"
     ],
     "iso6391": "ht",
@@ -558,7 +572,7 @@
     "group": "Afro-Asiatic",
     "names": [
       "hausa",
-      "(hausa) هَوُسَ"
+      " هَوُسَ"
     ],
     "iso6391": "ha",
     "iso6392": "hau",
@@ -616,7 +630,7 @@
   {
     "group": "Constructed",
     "names": [
-      "interlingua (international auxiliary language association)",
+      "international auxiliary language association",
       "interlingua"
     ],
     "iso6391": "ia",
@@ -637,7 +651,7 @@
     "group": "Constructed",
     "names": [
       "interlingue occidental",
-      "(originally:) occidental (after wwii:) interlingue"
+      "occidental interlingue"
     ],
     "iso6391": "ie",
     "iso6392": "ile",
@@ -716,7 +730,8 @@
     "group": "Japonic",
     "names": [
       "japanese",
-      "日本語 (にほんご)"
+      "日本語",
+      "にほんご"
     ],
     "iso6391": "ja",
     "iso6392": "jpn",
@@ -726,7 +741,8 @@
     "group": "Austronesian",
     "names": [
       "javanese",
-      "ꦧꦱꦗꦮ basa jawa"
+      "ꦧꦱꦗꦮ",
+      "basa jawa"
     ],
     "iso6391": "jv",
     "iso6392": "jav",
@@ -735,8 +751,9 @@
   {
     "group": "Eskimo–Aleut",
     "names": [
-      "kalaallisut greenlandic",
-      "kalaallisut kalaallit oqaasii"
+      "greenlandic",
+      "kalaallisut",
+      "kalaallit oqaasii"
     ],
     "iso6391": "kl",
     "iso6392": "kal",
@@ -765,7 +782,8 @@
     "group": "Indo-European",
     "names": [
       "kashmiri",
-      "कश्मीरी كشميري‎"
+      "कश्मीरी",
+      "كشميري‎"
     ],
     "iso6391": "ks",
     "iso6392": "kas",
@@ -775,6 +793,7 @@
     "group": "Turkic",
     "names": [
       "kazakh",
+      "қазақ",
       "қазақ тілі"
     ],
     "iso6391": "kk",
@@ -814,8 +833,10 @@
   {
     "group": "Turkic",
     "names": [
-      "kirghiz kyrgyz",
-      "кыргызча кыргыз тили"
+      "kirghiz",
+      "kyrgyz",
+      "кыргызча",
+      "кыргыз тили"
     ],
     "iso6391": "ky",
     "iso6392": "kir",
@@ -855,7 +876,8 @@
     "group": "Indo-European",
     "names": [
       "kurdish",
-      "kurdî کوردی‎"
+      "kurdî",
+      "کوردی‎"
     ],
     "iso6391": "ku",
     "iso6392": "kur",
@@ -864,7 +886,7 @@
   {
     "group": "Niger–Congo",
     "names": [
-      "kuanyama kwanyama",
+      "kwanyama",
       "kuanyama"
     ],
     "iso6391": "kj",
@@ -875,7 +897,8 @@
     "group": "Indo-European",
     "names": [
       "latin",
-      "latine lingua latina"
+      "latine",
+      "lingua latina"
     ],
     "iso6391": "la",
     "iso6392": "lat",
@@ -884,7 +907,8 @@
   {
     "group": "Indo-European",
     "names": [
-      "luxembourgish letzeburgesch",
+      "luxembourgish",
+      "letzeburgesch",
       "lëtzebuergesch"
     ],
     "iso6391": "lb",
@@ -904,7 +928,9 @@
   {
     "group": "Indo-European",
     "names": [
-      "limburgan limburger limburgish",
+      "limburgan",
+      "limburger",
+      "limburgish",
       "limburgs"
     ],
     "iso6391": "li",
@@ -935,6 +961,7 @@
     "group": "Indo-European",
     "names": [
       "lithuanian",
+      "lietuvių",
       "lietuvių kalba"
     ],
     "iso6391": "lt",
@@ -955,6 +982,7 @@
     "group": "Indo-European",
     "names": [
       "latvian",
+      "latviešu",
       "latviešu valoda"
     ],
     "iso6391": "lv",
@@ -975,6 +1003,7 @@
     "group": "Indo-European",
     "names": [
       "macedonian",
+      "македонски",
       "македонски јазик"
     ],
     "iso6391": "mk",
@@ -1025,6 +1054,7 @@
     "group": "Austronesian",
     "names": [
       "maori",
+      "māori",
       "te reo māori"
     ],
     "iso6391": "mi",
@@ -1055,6 +1085,7 @@
     "group": "Mongolic",
     "names": [
       "mongolian",
+      "монгол",
       "монгол хэл"
     ],
     "iso6391": "mn",
@@ -1065,6 +1096,7 @@
     "group": "Austronesian",
     "names": [
       "nauru",
+      "naoero",
       "dorerin naoero"
     ],
     "iso6391": "na",
@@ -1074,7 +1106,8 @@
   {
     "group": "Dené–Yeniseian",
     "names": [
-      "navajo navaho",
+      "navajo",
+      "navaho",
       "diné bizaad"
     ],
     "iso6391": "nv",
@@ -1144,6 +1177,7 @@
   {
     "group": "Sino-Tibetan",
     "names": [
+      "sichuan",
       "sichuan yi nuosu",
       "ꆈꌠ꒿ nuosuhxop"
     ],
@@ -1184,7 +1218,11 @@
   {
     "group": "Indo-European",
     "names": [
-      "church slavic old slavonic church slavonic old bulgarian old church slavonic",
+      "church slavic",
+      "old slavonic",
+      "church slavonic",
+      "old bulgarian",
+      "old church slavonic",
       "ѩзыкъ словѣньскъ"
     ],
     "iso6391": "cu",
@@ -1224,7 +1262,8 @@
   {
     "group": "Indo-European",
     "names": [
-      "punjabi panjabi",
+      "punjabi",
+      "panjabi",
       "ਪੰਜਾਬੀ پنجابی‎"
     ],
     "iso6391": "pa",
@@ -1255,7 +1294,8 @@
     "group": "Indo-European",
     "names": [
       "polish",
-      "język polski polszczyzna"
+      "polszczyzna",
+      "język polski"
     ],
     "iso6391": "pl",
     "iso6392": "pol",
@@ -1314,7 +1354,9 @@
   {
     "group": "Indo-European",
     "names": [
-      "romanian moldavian moldovan",
+      "romanian",
+      "moldavian",
+      "moldovan",
       "română"
     ],
     "iso6391": "ro",
@@ -1395,6 +1437,7 @@
     "group": "Indo-European",
     "names": [
       "serbian",
+      "српски",
       "српски језик"
     ],
     "iso6391": "sr",
@@ -1435,7 +1478,8 @@
     "group": "Indo-European",
     "names": [
       "slovak",
-      "slovenčina slovenský jazyk"
+      "slovenčina",
+      "slovenský jazyk"
     ],
     "iso6391": "sk",
     "iso6392": "slk",
@@ -1445,7 +1489,8 @@
     "group": "Indo-European",
     "names": [
       "slovenian",
-      "slovenski jezik slovenščina"
+      "slovenski",
+      "jezik slovenščina"
     ],
     "iso6391": "sl",
     "iso6392": "slv",
@@ -1474,6 +1519,7 @@
   {
     "group": "Indo-European",
     "names": [
+      "spanish",
       "spanish castilian",
       "español"
     ],
@@ -1545,7 +1591,9 @@
     "group": "Indo-European",
     "names": [
       "tajik",
-      "тоҷикӣ toçikī تاجیکی‎"
+      "тоҷикӣ",
+      "toçikī",
+      "تاجیکی‎"
     ],
     "iso6391": "tg",
     "iso6392": "tgk",
@@ -1585,7 +1633,8 @@
     "group": "Turkic",
     "names": [
       "turkmen",
-      "türkmen түркмен"
+      "türkmen",
+      "түркмен"
     ],
     "iso6391": "tk",
     "iso6392": "tuk",
@@ -1614,7 +1663,7 @@
   {
     "group": "Austronesian",
     "names": [
-      "tonga (tonga islands)",
+      "tonga",
       "faka tonga"
     ],
     "iso6391": "to",
@@ -1645,7 +1694,9 @@
     "group": "Turkic",
     "names": [
       "tatar",
-      "татар теле tatar tele"
+      "татар",
+      "татар теле",
+      "tatar tele"
     ],
     "iso6391": "tt",
     "iso6392": "tat",
@@ -1673,8 +1724,10 @@
   {
     "group": "Turkic",
     "names": [
-      "uighur uyghur",
-      "ئۇيغۇرچە‎ uyghurche"
+      "uighur",
+      "uyghur",
+      "‎uyghurche",
+      "ئۇيغۇرچە"
     ],
     "iso6391": "ug",
     "iso6392": "uig",
@@ -1704,7 +1757,9 @@
     "group": "Turkic",
     "names": [
       "uzbek",
-      "oʻzbek ўзбек أۇزبېك‎"
+      "oʻzbek",
+      "ўзбек",
+      "أۇزبېك‎"
     ],
     "iso6391": "uz",
     "iso6392": "uzb",
