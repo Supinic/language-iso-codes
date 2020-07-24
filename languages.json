@@ -379,7 +379,8 @@
   {
     "group": "Indo-European",
     "names": [
-      "divehi dhivehi maldivian",
+      "divehi",
+      "dhivehi maldivian",
       "ދިވެހި"
     ],
     "iso6391": "dv",
@@ -390,7 +391,9 @@
     "group": "Indo-European",
     "names": [
       "flemish",
+      "dutch",
       "dutch flemish",
+      "nederlands",
       "vlaams",
       "nederlands vlaams"
     ],
@@ -586,6 +589,9 @@
       "hebrew",
       "עברית"
     ],
+    "deprecated": {
+      "iso6391": "iw"
+    },
     "iso6391": "he",
     "iso6392": "heb",
     "iso6393": "heb"

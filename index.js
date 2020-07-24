@@ -5,7 +5,7 @@
  * See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
  */
 module.exports = (function () {
-	const languages = require(__dirname + "/languages.json");
+	const languages = require("./languages.json");
 
 	return class ISOLanguageParser {
 		static getCode (string, targetCode = "iso6391") {
@@ -44,6 +44,7 @@ module.exports = (function () {
 				|| i.iso6392 === target
 				|| i.iso6393 === target
 				|| i.names.includes(target)
+				|| i.deprecated && Object.values(i.deprecated).includes(target)
 			));
 		}
 
