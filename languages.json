@@ -811,6 +811,7 @@
   {
     "group": "Austroasiatic",
     "names": [
+      "khmer",
       "central khmer",
       "ខ្មែរ ខេមរភាសា ភាសាខ្មែរ"
     ],
@@ -1475,7 +1476,8 @@
   {
     "group": "Indo-European",
     "names": [
-      "sinhala sinhalese",
+      "sinhala",
+      "sinhalese",
       "සිංහල"
     ],
     "iso6391": "si",
