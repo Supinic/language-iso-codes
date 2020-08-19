@@ -636,6 +636,16 @@
     "iso6393": "hun"
   },
   {
+    "group": "Austronesian",
+    "names": [
+      "hawaiian",
+      "olelo hawai'i"
+    ],
+    "iso6391": null,
+    "iso6392": "haw",
+    "iso6393": "haw"
+  },
+  {
     "group": "Constructed",
     "names": [
       "international auxiliary language association",
