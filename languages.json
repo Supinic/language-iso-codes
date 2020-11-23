@@ -266,6 +266,18 @@
   {
     "group": "Austronesian",
     "names": [
+      "cebuano",
+      "bisaya",
+      "binisaya",
+      "visayan"
+    ],
+    "iso6391": null,
+    "iso6392": "ceb",
+    "iso6393": "ceb"
+  },
+  {
+    "group": "Austronesian",
+    "names": [
       "chamorro",
       "chamoru"
     ],
