@@ -298,6 +298,7 @@
   {
     "group": "Niger–Congo",
     "names": [
+      "chichewa",
       "chichewa chewa nyanja",
       "chicheŵa chinyanja"
     ],
@@ -636,6 +637,17 @@
     "iso6391": "ho",
     "iso6392": "hmo",
     "iso6393": "hmo"
+  },
+  {
+    "group": "Hmongic",
+    "names": [
+      "hmong",
+      "mong",
+      "miao"
+    ],
+    "iso6391": null,
+    "iso6392": "hmn",
+    "iso6393": "hmn"
   },
   {
     "group": "Uralic",
@@ -1273,6 +1285,7 @@
   {
     "group": "Indo-European",
     "names": [
+      "odia",
       "oriya",
       "ଓଡ଼ିଆ"
     ],
@@ -1335,6 +1348,7 @@
   {
     "group": "Indo-European",
     "names": [
+      "pashto",
       "pashto pushto",
       "پښتو"
     ],
@@ -1541,8 +1555,8 @@
   {
     "group": "Niger–Congo",
     "names": [
-      "southern sotho",
-      "sesotho"
+      "sesotho",
+      "southern sotho"
     ],
     "iso6391": "st",
     "iso6392": "sot",
