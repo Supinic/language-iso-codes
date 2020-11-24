@@ -1,24 +1,52 @@
 [
   {
+    "name": "abkhaz",
     "group": "Northwest Caucasian",
-    "names": [
-      "abkhazian",
-      "аҧсуа бызшәа",
-      "аҧсшәа"
-    ],
+    "names": {
+      "native": {
+        "short": "аԥсшәа",
+        "long": "аԥсуа бызшәа"
+      },
+      "english": {
+        "short": "abkhaz",
+        "long": "abhkazian"
+      },
+      "transliterations": [
+        "apsua byzshwa",
+        "apsshwa"
+      ],
+      "other": [
+        "abxaz"
+      ]
+    },
     "iso6391": "ab",
     "iso6392": "abk",
-    "iso6393": "abk"
+    "iso6393": "abk",
+    "glottolog": "abkh1244"
   },
   {
+    "name": "afar",
     "group": "Afro-Asiatic",
-    "names": [
-      "afar",
-      "afaraf"
-    ],
+    "names": {
+      "native": {
+        "short": "qafaraf",
+        "long": "qafaraf"
+      },
+      "english": {
+        "short": "afar",
+        "long": "afar"
+      },
+      "transliterations": [],
+      "other": [
+        "'afar af",
+        "afaraf",
+        "qafar af"
+      ]
+    },
     "iso6391": "aa",
     "iso6392": "aar",
-    "iso6393": "aar"
+    "iso6393": "aar",
+    "glottolog": "afar1241"
   },
   {
     "group": "Indo-European",

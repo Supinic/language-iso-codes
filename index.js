@@ -6,6 +6,12 @@
  */
 module.exports = (function () {
 	const languages = require("./languages.json");
+	const compileNameList = (lang) => [
+		...Object.values(lang.names.english),
+		...Object.values(lang.names.native),
+		...lang.names.transliterations,
+		...lang.names.other
+	];
 
 	return class ISOLanguageParser {
 		static getCode (string, targetCode = "iso6391") {
@@ -24,7 +30,9 @@ module.exports = (function () {
 				return null;
 			}
 			else {
-				return target.names[0];
+				return (!target.name && Array.isArray(names))
+					? target.names[0]
+					: target.name;
 			}
 		}
 
@@ -40,12 +48,34 @@ module.exports = (function () {
 
 			const target = string.toLowerCase();
 			return ISOLanguageParser.languages.find(i => (
-				i.iso6391 === target
-				|| i.iso6392 === target
-				|| i.iso6393 === target
-				|| i.names.includes(target)
-				|| i.deprecated && Object.values(i.deprecated).includes(target)
+				(i.iso6391 === target)
+				|| (i.iso6392 === target)
+				|| (i.iso6393 === target)
+				|| (Array.isArray(i.names) && i.names.includes(target))
+				|| (i.deprecated && Object.values(i.deprecated).includes(target))
 			));
+		}
+
+		/**
+		 * Searches by all names in a language.
+		 * @param string
+		 * @returns {Language|null}
+		 */
+		static search (string) {
+			if (typeof string !== "string") {
+				return null;
+			}
+
+			const target = string.toLowerCase();
+			const result = ISOLanguageParser.languages.find(lang => {
+				const names = (Array.isArray(lang.names))
+					? lang.names
+					: compileNameList(lang);
+
+				return names.includes(target);
+			});
+
+			return result || null;
 		}
 
 		/**
