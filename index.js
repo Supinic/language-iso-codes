@@ -30,7 +30,7 @@ module.exports = (function () {
 				return null;
 			}
 			else {
-				return (!target.name && Array.isArray(names))
+				return (!target.name && Array.isArray(target.names))
 					? target.names[0]
 					: target.name;
 			}
