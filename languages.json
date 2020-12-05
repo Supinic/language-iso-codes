@@ -713,6 +713,9 @@
       "indonesian",
       "bahasa indonesia"
     ],
+    "deprecated": {
+      "iso6391": "in"
+    },
     "iso6391": "id",
     "iso6392": "ind",
     "iso6393": "ind"
@@ -814,6 +817,9 @@
       "ꦧꦱꦗꦮ",
       "basa jawa"
     ],
+    "deprecated": {
+      "iso6391": "jw"
+    },
     "iso6391": "jv",
     "iso6392": "jav",
     "iso6393": "jav"
@@ -1432,6 +1438,9 @@
       "moldovan",
       "română"
     ],
+    "deprecated": {
+      "iso6391": "mo"
+    },
     "iso6391": "ro",
     "iso6392": "ron",
     "iso6393": "rum"
@@ -1924,6 +1933,9 @@
       "yiddish",
       "ייִדיש"
     ],
+    "deprecated": {
+      "iso6391": "ji"
+    },
     "iso6391": "yi",
     "iso6392": "yid",
     "iso6393": "yid"
