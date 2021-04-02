@@ -10,7 +10,7 @@
   },
   "files": [
     "index.js",
-	"languages.json"
+    "languages.json"
   ],
   "main": "index.js",
   "name": "language-iso-codes",
