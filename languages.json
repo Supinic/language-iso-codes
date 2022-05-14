@@ -219,6 +219,24 @@
     "iso6393": "ben"
   },
   {
+    "group": "Indo-Aryan",
+    "names": {
+      "native": {
+        "short": "भोजपुरी",
+        "long": "भोजपुरी"
+      },
+      "english": {
+        "short": "bhojpuri",
+        "long": "bhojpuri"
+      },
+      "transliterations": [],
+      "other": []
+    },
+    "iso6392": "bho",
+    "iso6393": "bho",
+    "glottolog": "bhoj1246"
+  },
+  {
     "group": "Indo-European",
     "names": [
       "bihari",
@@ -427,6 +445,27 @@
     "iso6391": "dv",
     "iso6392": "div",
     "iso6393": "div"
+  },
+  {
+    "group": "Indo-Aryan",
+    "names": {
+      "native": {
+        "short": "\uD806\uDC16\uD806\uDC35\uD806\uDC0C\uD806\uDC24\uD806\uDC2E",
+        "long": "\uD806\uDC16\uD806\uDC35\uD806\uDC0C\uD806\uDC24\uD806\uDC2E"
+      },
+      "english": {
+        "short": "dogri",
+        "long": "dogri"
+      },
+      "transliterations": [],
+      "other": [
+        "डोगरी",
+        "ڈوگری"
+      ]
+    },
+    "iso6392": "doi",
+    "iso6393": "doi",
+    "glottolog": "indo1311"
   },
   {
     "group": "Indo-European",
@@ -731,6 +770,29 @@
     "iso6393": "ile"
   },
   {
+    "group": "Austronesian",
+    "names": {
+      "native": {
+        "short": "iloko",
+        "long": "pagsasao nga ilokano"
+      },
+      "english": {
+        "short": "ilocano",
+        "long": "ilocano"
+      },
+      "transliterations": [],
+      "other": [
+        "ilokano",
+        "iluko",
+        "samtoy",
+        "sao mi ditoy"
+      ]
+    },
+    "iso6392": "ilo",
+    "iso6393": "ilo",
+    "glottolog": "ilok1237"
+  },
+  {
     "group": "Indo-European",
     "names": [
       "irish",
@@ -930,6 +992,24 @@
     "iso6393": "kom"
   },
   {
+    "group": "Indo-Aryan",
+    "names": {
+      "native": {
+        "short": "कोंकणी",
+        "long": "कोंकणी"
+      },
+      "english": {
+        "short": "konkani",
+        "long": "konkani"
+      },
+      "transliterations": [],
+      "other": []
+    },
+    "iso6392": "kok",
+    "iso6393": "kok",
+    "glottolog": "konk1267"
+  },
+  {
     "group": "Niger–Congo",
     "names": [
       "kongo",
@@ -948,6 +1028,24 @@
     "iso6391": "ko",
     "iso6392": "kor",
     "iso6393": "kor"
+  },
+  {
+    "group": "Creole",
+    "names": {
+      "native": {
+        "short": "krio",
+        "long": "krio"
+      },
+      "english": {
+        "short": "krio",
+        "long": "sierra leonean creole"
+      },
+      "transliterations": [],
+      "other": []
+    },
+    "iso6392": null,
+    "iso6393": "kri",
+    "glottolog": "krio1253"
   },
   {
     "group": "Indo-European",
@@ -1056,6 +1154,27 @@
     "iso6393": "lub"
   },
   {
+    "group": "Sino-Tibetan",
+    "names": {
+      "native": {
+        "short": "mizo",
+        "long": "mizo ṭawng"
+      },
+      "english": {
+        "short": "mizo",
+        "long": "mizo"
+      },
+      "transliterations": [],
+      "other": [
+        "duhlian",
+        "lushai"
+      ]
+    },
+    "iso6392": "lus",
+    "iso6393": "lus",
+    "glottolog": "lush1249"
+  },
+  {
     "group": "Indo-European",
     "names": [
       "latvian",
@@ -1088,6 +1207,24 @@
     "iso6393": "mac"
   },
   {
+    "group": "Indo-Aryan",
+    "names": {
+      "native": {
+        "short": "मैथिली",
+        "long": "मैथिली"
+      },
+      "english": {
+        "short": "maithili",
+        "long": "maithili"
+      },
+      "transliterations": [],
+      "other": []
+    },
+    "iso6392": "mai",
+    "iso6393": "mai",
+    "glottolog": "mait1250"
+  },
+  {
     "group": "Austronesian",
     "names": [
       "malagasy",
@@ -1096,6 +1233,30 @@
     "iso6391": "mg",
     "iso6392": "mlg",
     "iso6393": "mlg"
+  },
+  {
+    "group": "Sino-Tibetan",
+    "names": {
+      "native": {
+        "short": "ꯃꯤꯇꯩꯂꯣꯟ",
+        "long": "ꯃꯤꯇꯩꯂꯣꯟ"
+      },
+      "english": {
+        "short": "meitei",
+        "long": "meitheilon"
+      },
+      "transliterations": [],
+      "other": [
+        "meetei",
+        "manipuri",
+        "meeteilon",
+        "meeʁteilon",
+        "kathe"
+      ]
+    },
+    "iso6392": "mni",
+    "iso6393": "mni",
+    "glottolog": "mani1292"
   },
   {
     "group": "Austronesian",
@@ -1252,6 +1413,26 @@
     "iso6393": "nor"
   },
   {
+    "group": "Niger-Congo",
+    "names": {
+      "native": {
+        "short": "pedi",
+        "long": "sesotho sa leboa"
+      },
+      "english": {
+        "short": "northern sotho",
+        "long": "northern sotho"
+      },
+      "transliterations": [],
+      "other": [
+        "sepedi"
+      ]
+    },
+    "iso6392": "nso",
+    "iso6393": "nso",
+    "glottolog": "north3233"
+  },
+  {
     "group": "Sino-Tibetan",
     "names": [
       "sichuan",
@@ -1295,11 +1476,11 @@
   {
     "group": "Indo-European",
     "names": [
-      "church slavic",
+      "church slavic",
       "old slavonic",
       "church slavonic",
       "old bulgarian",
-      "old church slavonic",
+      "old church slavonic",
       "ѩзыкъ словѣньскъ"
     ],
     "iso6391": "cu",
