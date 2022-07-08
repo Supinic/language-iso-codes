@@ -13,6 +13,50 @@ module.exports = (function () {
 		...lang.names.other
 	];
 
+	class Language {
+		#name;
+		#glottolog = null;
+		#isoCodes = [];
+		#aliases = [];
+
+		constructor (data) {
+			this.#name = data.name;
+			this.#isoCodes = [data.iso6391, data.iso6392, data.iso6393];
+
+			if (Array.isArray(data.names)) {
+				this.#aliases.push(...data.names);
+			}
+			else if (typeof data.names === "object") {
+				const { native, english, transliterations, other } = data.names;
+				this.#aliases.push(
+					native.short,
+					native.long,
+					english.short,
+					engilsh.long,
+					...transliterations,
+					...other
+				);
+			}
+
+			if (data.glottolog) {
+				this.#glottolog = data.glottolog;
+			}
+		}
+
+		getIsoCode (type) {
+			if (type !== 1 && type !== 2 && type !== 3) {
+				throw new Error("Invalid ISO type provided, use a number: 1, 2, or 3");
+			}
+
+			const index = type - 1;
+			return this.#isoCodes[index];
+		}
+
+		get name () { return this.#name; }
+		get aliases () { return this.#aliases; }
+		get glottolog () { return this.#glottolog; }
+	}
+
 	return class ISOLanguageParser {
 		static getCode (string, targetCode = "iso6391") {
 			const target = ISOLanguageParser.get(string);
@@ -34,6 +78,20 @@ module.exports = (function () {
 					? target.names[0]
 					: target.name;
 			}
+		}
+
+		/**
+		 * Fetches a Language class instance for provided input
+		 * @param {string} string Language-like code, name or ISO code
+		 * @returns {Language|null}
+		 */
+		static getLanguage (string) {
+			const result = ISOLanguageParser.get(string);
+			if (!result) {
+				return null;
+			}
+
+			return new Language(result);
 		}
 
 		/**
