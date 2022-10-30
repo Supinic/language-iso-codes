@@ -1057,7 +1057,9 @@
     "names": [
       "kurdish",
       "kurdî",
-      "کوردی‎"
+      "کوردی‎",
+      "kurmanji",
+      "northern kurdish"
     ],
     "iso6391": "ku",
     "iso6392": "kur",
@@ -1778,6 +1780,14 @@
     "iso6391": "so",
     "iso6392": "som",
     "iso6393": "som"
+  },
+  {
+    "group": "Indo-European",
+    "names": [
+      "sorani",
+      "central kurdish"
+    ],
+    "iso6393": "ckb"
   },
   {
     "group": "Niger–Congo",
