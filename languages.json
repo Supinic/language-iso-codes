@@ -615,6 +615,13 @@
     "iso6393": "ger"
   },
   {
+    "name": "goan konkani",
+    "group": "Indo-Aryan",
+    "names": [],
+    "iso6393": "gom",
+    "glottolog": "goan1235"
+  },
+  {
     "group": "Indo-European",
     "names": [
       "greek",
