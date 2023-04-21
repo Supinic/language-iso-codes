@@ -32,7 +32,7 @@ module.exports = (function () {
 					native.short,
 					native.long,
 					english.short,
-					engilsh.long,
+					english.long,
 					...transliterations,
 					...other
 				);
