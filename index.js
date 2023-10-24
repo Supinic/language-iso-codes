@@ -57,9 +57,9 @@ module.exports = (function () {
 		get glottolog () { return this.#glottolog; }
 	}
 
-	return class ISOLanguageParser {
+	return class Parser {
 		static getCode (string, targetCode = "iso6391") {
-			const target = ISOLanguageParser.get(string);
+			const target = Parser.get(string);
 			if (!target) {
 				return null;
 			}
@@ -69,7 +69,7 @@ module.exports = (function () {
 		}
 
 		static getName (string) {
-			const target = ISOLanguageParser.get(string);
+			const target = Parser.get(string);
 			if (!target) {
 				return null;
 			}
@@ -86,7 +86,7 @@ module.exports = (function () {
 		 * @returns {Language|null}
 		 */
 		static getLanguage (string) {
-			const result = ISOLanguageParser.get(string);
+			const result = Parser.get(string);
 			if (!result) {
 				return null;
 			}
@@ -105,7 +105,7 @@ module.exports = (function () {
 			}
 
 			const target = string.toLowerCase();
-			return ISOLanguageParser.languages.find(i => (
+			return Parser.languages.find(i => (
 				(i.iso6391 === target)
 				|| (i.iso6392 === target)
 				|| (i.iso6393 === target)
@@ -125,7 +125,7 @@ module.exports = (function () {
 			}
 
 			const target = string.toLowerCase();
-			const result = ISOLanguageParser.languages.find(lang => {
+			const result = Parser.languages.find(lang => {
 				const names = (Array.isArray(lang.names))
 					? lang.names
 					: compileNameList(lang);

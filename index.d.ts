@@ -32,7 +32,7 @@ export declare type LanguageData = {
     glottolog?: string;
 };
 
-export declare class Parser {
+export default class Parser {
     static getCode (string: string, targetCode?: IsoCode): LanguageData[IsoCode];
     static getLanguage (string: string): Language;
     static getName (string: string): string;
